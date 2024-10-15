@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Compression</title>
+    <link rel="stylesheet" type="text/css" href="image-compression.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Image Compression</h1>
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+        </div>
+
+        <div class="settings-section">
+            <label for="compressionLevel">Compression Level:</label>
+            <input type="range" id="compressionLevel" min="0" max="1" step="0.1" value="0.8">
+            <span id="compressionLabel">80%</span>
+        </div>
+
+        <div class="actions-section">
+            <button id="compressButton">Compress Image</button>
+            <a id="downloadLink" href="#" download="compressed-image.jpg" style="display: none;">Download Compressed Image</a>
+        </div>
+
+        <div class="name">
+            <h2>Team Members</h2>
+            <h4>Suraj Nimbalkar <br> Niraj Jadhav <br> Pranav Jogdand</h4>
+        </div>
+        <div>
+            <h4>This is a simple implementation that we can extend to support other image formats or compression techniques as needed. we can further extend this example with more image enhancement options such as brightness, contrast, or other filters.</h4>
+            
+        </div>
+
+        <canvas id="imageCanvas" style="display: none;"></canvas>
+    </div>
+
+    <script src="image-compression.js"></script>
+</body>
+</html>

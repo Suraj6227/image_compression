@@ -1,0 +1,26 @@
+/* Basic styling */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color:chartreuse;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.upload-section, .settings-section, .actions-section {
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    width: 50%;
+}
+
+.name{
+    padding-top: 10%;
+    margin-top: 20%;
+}
